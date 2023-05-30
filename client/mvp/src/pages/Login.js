@@ -1,17 +1,28 @@
-
 import React, { useState } from "react";
+import PropTypes from 'prop-types';
+import './login.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-import '../App.css';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
-const Login = (props) => {
+const Login = (props) => { // Corrected syntax here
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [passwordVisible, setPasswordVisible] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(email);
+    
+    try {
+      const auth = getAuth(); // Get the Firebase Authentication instance
+      // Use signInWithEmailAndPassword method to authenticate the user
+      await signInWithEmailAndPassword(auth, email, password);
+      console.log('User logged in successfully!');
+      // Redirect the user or perform any other actions upon successful login
+    } catch (error) {
+      console.log('Error logging in:', error);
+      // Handle error if login fails
+    }
   };
 
   const handlePasswordToggle = () => {
@@ -19,7 +30,8 @@ const Login = (props) => {
   };
 
   return (
-    <div className="auth-form-container">
+    <div className="Loginpage">
+     <div className="background-image"></div>
       <form className="form" onSubmit={handleSubmit}>
         <div className="one">
           <label htmlFor="email">Email</label>
@@ -32,6 +44,7 @@ const Login = (props) => {
             id="email"
             name="email"
           />
+          
           <label className="pass" htmlFor="password">Password</label>
           <div className="password-input-container">
             <input
@@ -42,11 +55,13 @@ const Login = (props) => {
               name="password"
               id="password"
             />
-            <span className="password-toggle-icon" onClick={handlePasswordToggle}>
+            <span className="password-toggle-icon1" onClick={handlePasswordToggle}>
               <FontAwesomeIcon icon={passwordVisible ? faEyeSlash : faEye} />
             </span>
           </div>
+          
         </div>
+        
         <div>
           <button className="login" type="submit">Login</button>
         </div>

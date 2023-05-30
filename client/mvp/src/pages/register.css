@@ -1,0 +1,47 @@
+.auth-form-container{
+    flex-direction: column;
+    background-color: rgb(107, 50, 124);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+input{
+    display: block;
+    padding: 5px; 
+  }
+  .but{
+    color: brown;
+    font-size: 3vh;
+    border: none;
+  }
+  .two {
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .password-input-container {
+    position: relative;
+ 
+}
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+  .reg{
+    color: white;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }

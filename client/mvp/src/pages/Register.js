@@ -1,7 +1,10 @@
-
 import React, { useState } from "react";
+import PropTypes from 'prop-types';
+import { useNavigate } from "react-router-dom";
+import './register.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 const Register = (props) => {
   const [email, setEmail] = useState("");
@@ -10,13 +13,23 @@ const Register = (props) => {
   const [name, setName] = useState("");
   const [passwordVisible, setPasswordVisible] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (password !== confirmPassword) {
       alert("Passwords do not match");
       return;
     }
-    
+
+    try {
+      const auth = getAuth();
+      await createUserWithEmailAndPassword(auth, email, password);
+      // Registration successful
+      // You can add further logic here, such as redirecting to a different page
+    } catch (error) {
+      console.log(error);
+      // Handle registration error
+      // You can display an error message or take appropriate action based on the error
+    }
   };
 
   const handlePasswordToggle = () => {
@@ -51,7 +64,7 @@ const Register = (props) => {
             onChange={(e) => setPassword(e.target.value)}
             placeholder="*********"
             name="password"
-            id="password"
+            id="password2"
           />
           <span
             className="password-toggle-icon"
@@ -89,3 +102,4 @@ const Register = (props) => {
 };
 
 export default Register;
+
