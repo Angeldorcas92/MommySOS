@@ -1,0 +1,40 @@
+
+  .newborn-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  } 
+  
+  .newborn-image {
+    display:block;
+  }
+  .newborn-info h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8vh;
+    color: maroon;
+  }
+  
+  .baby-image {
+    width: 300px;
+    border-radius: 8px;
+    margin-right: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+  
+  .newborn-heading {
+    margin-bottom: 20px;
+  }
+  
+  .newborn-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: darkgray;
+    text-align: justify;
+    padding-right: 30px;
+    
+  }
+  

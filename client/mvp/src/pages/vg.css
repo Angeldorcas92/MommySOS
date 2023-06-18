@@ -1,0 +1,62 @@
+.guide{
+    display: flex;
+    justify-content: center;
+}
+
+.vaginal-delivery {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vaginal-delivery h2 {
+    color: #d88585;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  .vaginal-delivery-do-title {
+    color: #4caf50;
+    font-size: 3vh;
+  }
+  
+  .vaginal-delivery-do-list li {
+    color: #4caf50;
+  }
+  
+  .vaginal-delivery-dont-title {
+    color: #f44336;
+    font-size: 3vh;
+  }
+  .vaginal-delivery-dont-list li {
+    color: #f44336;
+  }
+  
+  
+  .vaginal-delivery p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .vaginal-delivery li {
+    margin-bottom: 10px;
+  }
+  .vaginal-delivery li strong{
+    font-size: 3vh;
+    color: #ff4081;
+  }
+  .vaginal-delivery a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .vaginal-delivery a:hover {
+    text-decoration: underline;
+  }
+  
+  

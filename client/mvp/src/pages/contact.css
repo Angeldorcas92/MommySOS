@@ -1,0 +1,100 @@
+.contact {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+  
+  .contact textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .contact button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+  
+  .contact button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .image{
+    width: 100vw;
+    height: 500px;
+    margin-top: -20px;
+    position: relative;
+  }
+  .contact-head h2 {
+    background-color: bisque;
+    padding: 40px;
+    width: 350px;
+    font-size: 6vh;
+    position: absolute;
+    bottom: 360px;
+    color:black;
+    text-align: center;
+    transform: translateX(-50%);
+    left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  
+  .contact-head h2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-head p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+  }

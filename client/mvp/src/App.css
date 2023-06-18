@@ -4,8 +4,12 @@
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-}
 
+}
+.two{
+  padding: 20px;
+  text-align: center;
+}
  
 
  
@@ -66,7 +70,7 @@ flex-direction: column;
   font-family: 'PT Sans', sans-serif;
 
 }
-.contact, .services,.does,.meal,.postpartum,.newborn,.mother,.breastfeeding,.about{
+.services,.does,.meal,.postpartum,.newborn,.mother,.breastfeeding,.about{
   position: absolute;
   align-items: center;
   text-align: center;
@@ -74,3 +78,10 @@ flex-direction: column;
   font-size: 3rem;
 
 }
+ /* html, body{
+  margin: 0; 
+   padding: 0; 
+   overflow-x: hidden;
+   
+  
+}  */

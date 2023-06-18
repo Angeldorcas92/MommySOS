@@ -1,14 +1,16 @@
 .Loginpage{
     position: relative;
     opacity: 5; 
+    
+    
 }
 .hold {
     position: relative;
-    left: 60px;
+    left: 40px;
 }
 #password{
     position: relative;
-    left: 60px;
+    left: 40px;
 }
 
 .background-image{
@@ -32,7 +34,8 @@ input{
     padding: 5px; 
   }
   .but{
-    color: brown;
+    color: red;
+    text-decoration: none;
     font-size: 3vh;
     border: none;
     position: relative;
@@ -42,31 +45,45 @@ input{
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
-  .two {
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .one{
-    position: relative;
-  }
+.yet-quest{
+  position: relative;
+  top: 60px;
+}
+  
   .password-input-container {
     position: relative;
+    top: 20px;
+    
   }
+  .pas{
+  position: relative;
+  top: 18px;
+  left: 6px;
+  color: rgb(18, 3, 32);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
+  
+  }
   .password-toggle-icon1 {
     position: absolute;
     top: 50%;
-    right: 80px;
+    right: 50px;
     transform: translateY(-50%);
     cursor: pointer;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-  }
+    
+}
   .login{
     position: relative;
+    top: 40px;
+    padding: 2px;
+    background-color: orangered;
+    border-radius: 0px 4px 0px 4px;
+    cursor: pointer;
+   
+  }
+  .login:hover{
+    background-color:  rgb(211, 91, 11);
+ color: #fff;
   }
   .reg{
     color: white;
@@ -75,4 +92,8 @@ input{
   }
   .form, .one{
     opacity: 1;
+  }
+  .mail{
+    color: rgb(18, 3, 32);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }

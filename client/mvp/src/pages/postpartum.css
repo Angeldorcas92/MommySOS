@@ -1,0 +1,94 @@
+.pimg{
+  width: 100%;
+  height: auto;
+  max-height: 550px;
+  object-fit: cover;
+  margin-top: -18px;
+  
+} 
+   .postpartum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .about-box {
+    width: 45%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+  
+  .about-box-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+   
+}
+  
+  .about-box-heading {
+    font-size: 34px;
+    color: rgb(35, 243, 226);
+    margin-bottom: 10px;
+  }
+  
+  .about-box-description {
+    font-size: 24px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: #555;
+  }
+  
+  .about-box-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-box-list {
+    list-style-type: disc;
+    text-align: justify;
+    margin-left: 20px;
+    color: #ff8c00;
+    margin-bottom: 20px;
+  }
+  
+  .book-caregiver-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff8c00;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+
+}
+  
+  .book-caregiver-button:hover {
+    background-color: #ff6f00;
+  }
+  
+  .footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  

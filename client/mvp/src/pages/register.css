@@ -1,47 +1,97 @@
 .auth-form-container{
     flex-direction: column;
-    background-color: rgb(107, 50, 124);
+    background-color: rgb(206, 190, 211);
     width: 100vw;
     height: 100vh;
     text-align: center;
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    position: fixed; 
+    top:0;
+    right: 0;
+    
+    
     
 }
 input{
-    display: block;
-    padding: 5px; 
-  }
+  border-radius: 10px 0px;
+  color: teal;
+  
+}
   .but{
     color: brown;
     font-size: 3vh;
     border: none;
+    position: fixed;
   }
-  .two {
+  /* .two {
     justify-content: center;
     align-items: center;
     
-  }
-  .password-input-container {
-    position: relative;
- 
-}
+  } */
   
-  .password-toggle-icon {
-    position: absolute;
-    top: 50%;
-    right: 10px;
+  
+  .password-toggle-icons1 {
     transform: translateY(-50%);
     cursor: pointer;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-  }
-  .reg{
-    color: white;
+    position: relative;
+    bottom: 15px;
+    left: 46px;
+}
+.password-toggle-icons {
+  transform: translateY(-50%);
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  position: relative;
+  bottom: 42px;
+  left: 64px;
+}
+.confirm1{
+  position: relative;
+  right: 20px;
+  color: rgb(18, 3, 32);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.confirm{
+  color: rgb(18, 3, 32);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  
+}
+.auth-form-container h5{
+    color:black;
+    font-size: large;
     font-style: italic;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .register{
+    margin-bottom: 30px;
+    padding: 2px;
+    background-color: orangered;
+    border-radius: 0px 4px 0px 4px;
+    cursor: pointer;
+    -webkit-border-radius: 0px 4px 0px 4px;
+    -moz-border-radius: 0px 4px 0px 4px;
+    -ms-border-radius: 0px 4px 0px 4px;
+    -o-border-radius: 0px 4px 0px 4px;
+}
+.register:hover{
+ background-color:  rgb(211, 91, 11);
+ color: #fff;
+}
+  .field1{
+    margin: 10px;
+  }
+  .field2{
+    position:relative;
+    bottom: 10px;
+    left: 20px;
+  
   }

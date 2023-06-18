@@ -1,0 +1,102 @@
+.breastfeeding-image-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px
+}
+.mom-baby-image{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.breastfeeding-container{
+    background-color: rgb(241, 225, 173);
+}
+  .breastfeeding-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2px;
+  }
+  
+  .breastfeeding-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+    color: darkolivegreen;
+  }
+  
+  .breastfeeding-text1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color:gray;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .breastfeeding-text2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+  }
+  
+  .breastfeeding-list {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .breastfeeding-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  
+  .image-box {
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+}
+  
+  .mom-baby-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  .breastfeeding-text {
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+    padding: 10px;
+  }
+  
+  
+  .breastbg{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    margin-top: -18px;
+    
+    
+  }
+  .slidehead{
+    font-size: 6vh;
+    color: rgb(4, 114, 114);
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
