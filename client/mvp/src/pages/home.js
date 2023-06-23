@@ -15,6 +15,7 @@ import dos from '../Assets/dos.png'
 import Breastfeeding from './breastfeeding';
 import Postpartum from './postpartum';
 import Footer from './footer';
+import MyComponent from './mycomponenet';
 
 export default function Home() {
 

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
 import Register from './pages/Register';
@@ -21,26 +21,22 @@ import Dropdown from './pages/dropdown';
 import Vaginaldelivery from './pages/vaginal';
 import CS from './pages/cs';
 import Rout from './Routes/routes';
-
+import AuthProvider from './pages/authentication';
+import { Axios } from 'axios';
+import MyComponent from './pages/mycomponenet';
 
 
 
 
 
 function App() {
-  // const [currentForm, setCurrentForm] = useState('login');
-
-  // const toggleForm = () => {
-  //   setCurrentForm(currentForm === 'login' ? 'register' : 'login');
-  // };
  
-
+  
   return (
-    
+   
     <div className="App">
       
         
-      
              
           {/* <Routes>
           <Route
@@ -54,7 +50,9 @@ function App() {
             />
         </Routes>  */}
         <div>
-           <Rout/> 
+        
+        <Rout/>
+  
         </div> 
       </div> 
            

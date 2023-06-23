@@ -1,4 +1,5 @@
-// userController.js
+const bcrypt = require('bcrypt');
+
 
 // Function to get all users
 const getAllUsers = (req, res) => {
@@ -23,12 +24,17 @@ const getAllUsers = (req, res) => {
     // Implementation to delete a user from the database
     // Return the response or perform any necessary operations
   };
+  const loginUser = (req, res) => {
+    // Implementation to delete a user from the database
+    // Return the response or perform any necessary operations
+  };
   
   // Export the controller functions
   module.exports = {
     getAllUsers,
     createUser,
     updateUser,
+    loginUser,
     deleteUser
   };
   

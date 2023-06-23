@@ -15,6 +15,7 @@
     background: #242222;
     font-size: medium;
     padding: 0.5rem 1rem;
+    list-style-type: none;
 
 }
 .dropdown-menu li a {

@@ -1,26 +1,21 @@
-import React, { useContext } from 'react';
-import { useHistory } from 'react-router-dom';
-import { auth } from './firebase'; // Assuming you have initialized Firebase
+import React from 'react';
 
 const Logout = () => {
-  const history = useHistory();
-
-  const handleLogout = async () => {
-    try {
-      await auth.signOut(); 
-      history.push('/login'); 
-    } catch (error) {
-      console.log('Error logging out:', error);
-      
-    }
+  const handleLogout = () => {
+    // Perform any necessary cleanup or session data clearing
+    
+    // Redirect the user to the login page
+    window.location.href = '/login';
   };
 
   return (
-    <div>
-      <h1>Logout</h1>
-      <button onClick={handleLogout}>Logout</button>
+    <div className="logout-container">
+      <h1 className="logout-heading">Logout</h1>
+      <button className="logout-button" onClick={handleLogout}>Logout</button>
     </div>
   );
 };
 
 export default Logout;
+
+
