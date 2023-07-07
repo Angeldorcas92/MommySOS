@@ -5,6 +5,7 @@ import fot from '../Assets/abtimg.png';
 import fots from '../Assets/motherch.jpg';
 import Footer from './footer';
 import './about.css'
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -39,7 +40,13 @@ const About = () => {
                 Our vision at MommySOS is to create a world where every mother receives the care, support, and resources she needs to thrive during the postpartum period. We envision a society that recognizes and values the essential role of mothers and provides them with the tools and support to navigate the challenges and joys of motherhood.
               </p>
             </div>
+           
           </div>
+          <div>
+              <p>
+              <Link to="/form" className='blink'>Become one of our care giver</Link>
+              </p>
+            </div>
         </div>
          <Footer/>
         </div>

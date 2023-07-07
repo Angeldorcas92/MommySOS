@@ -28,6 +28,9 @@ const getAllUsers = (req, res) => {
     // Implementation to delete a user from the database
     // Return the response or perform any necessary operations
   };
+  const logOut = ( req, res ) => {
+
+  };
   
   // Export the controller functions
   module.exports = {
@@ -35,6 +38,8 @@ const getAllUsers = (req, res) => {
     createUser,
     updateUser,
     loginUser,
-    deleteUser
+    deleteUser,
+    logOut
   };
-  
+
+

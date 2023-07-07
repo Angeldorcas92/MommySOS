@@ -103,7 +103,11 @@
     font-weight: bold;
     border-radius: 8px;
     text-decoration: none;
-  }
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
   
   .book-caregiver-button:hover {
     background-color: #ffab33;

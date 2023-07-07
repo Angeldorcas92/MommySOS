@@ -39,6 +39,10 @@ input{
     position: relative;
     bottom: 15px;
     left: 46px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 .password-toggle-icons {
   transform: translateY(-50%);

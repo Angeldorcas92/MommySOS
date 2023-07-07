@@ -11,7 +11,10 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .about-heading{
     font-size: 8vh;
@@ -26,7 +29,10 @@
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 20px;
-    
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
   
   .about-box h3 {
@@ -56,5 +62,17 @@
   .mission{
     text-align: justify;
   }
-  
+  .blink{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(241, 134, 134);
+    background-color: black;
+    border-radius: 4px;
+    font-size: 3vh;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    
+}
   
